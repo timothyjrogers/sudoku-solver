@@ -114,5 +114,9 @@ fn solve(board: Board) -> bool {
 
 fn main() {
     let board = Board::new_from_file("test.txt");
+    println!("PUZZLE");
+    board.print();
+    println!("");
+    println!("SOLUTION");
     solve(board);
 }
